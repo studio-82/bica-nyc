@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | BICA NYC</title>
+    <meta
+      name="description"
+      content="Reach BICA NYC for partnerships, honoree nominations, vendor participation, and chapter event information."
+    />
+    <link rel="icon" href="cleanIcon.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body data-page="contact">
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand-lockup" href="index.html" aria-label="BICA NYC home">
+          <img src="cleanIcon.png" alt="" />
+          <div>
+            <span>BICA NYC</span>
+            <small>Beauty Industry Community Awards</small>
+          </div>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          Menu
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+          <a href="index.html">Home</a>
+          <a href="our-story.html">Our Story</a>
+          <a href="events.html">Events</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="page-hero">
+          <div>
+            <p class="section-label">Contact</p>
+            <h1>Bring the NYC chapter into your next room, partnership, or celebration.</h1>
+          </div>
+          <p class="page-hero-copy">
+            The NYC chapter was started by Dr. Dave Roy. This page is centered on founder-led chapter
+            outreach, partnerships, honoree nominations, vendor opportunities, and community event
+            conversations.
+          </p>
+        </section>
+
+        <section class="section contact-layout">
+          <div class="contact-stack">
+            <article class="contact-card">
+              <p class="section-label">Founder</p>
+              <h2>Dr. Dave Roy</h2>
+              <p>Founder of the NYC chapter and a key part of how the chapter’s local vision took shape.</p>
+            </article>
+            <article class="contact-card">
+              <p class="section-label">Chapter focus</p>
+              <h2>What to reach out about</h2>
+              <p>Partnerships, honoree nominations, vendor participation, chapter updates, and social programming.</p>
+            </article>
+            <article class="contact-card">
+              <p class="section-label">NYC chapter</p>
+              <h2>Founder-led chapter building</h2>
+              <p>The contact flow is designed for collaboration, local programming, and future NYC chapter growth.</p>
+            </article>
+          </div>
+
+          <form class="contact-form" data-inquiry-form>
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="you@example.com" required />
+            </label>
+            <label>
+              Organization
+              <input type="text" name="organization" placeholder="Your brand, business, or community group" />
+            </label>
+            <label>
+              Subject
+              <select name="subject">
+                <option value="Partnership inquiry">Partnership inquiry</option>
+                <option value="Honoree nomination">Honoree nomination</option>
+                <option value="Vendor interest">Vendor interest</option>
+                <option value="General chapter question">General chapter question</option>
+              </select>
+            </label>
+            <label>
+              Message
+              <textarea
+                name="message"
+                rows="7"
+                placeholder="Tell BICA NYC what you're planning, who you're nominating, or how you'd like to connect."
+                required
+              ></textarea>
+            </label>
+            <button class="button button-dark" type="submit">Copy inquiry note</button>
+            <p class="form-note">
+              This GitHub Pages version copies a clean inquiry note you can send through the NYC chapter’s
+              preferred contact channel.
+            </p>
+            <p class="form-status" data-form-status aria-live="polite"></p>
+          </form>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>BICA NYC</p>
+        <p>Beauty Industry Community Awards, New York City chapter.</p>
+        <p>&copy; <span data-year></span></p>
+      </footer>
+    </div>
+  </body>
+</html>
